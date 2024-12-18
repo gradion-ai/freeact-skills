@@ -1,0 +1,1407 @@
+articles:
+- title: Impact of prompt masking on LLM agent planning performance.
+  url: https://krasserm.github.io/2024/06/26/planner-prompt-masking/
+  description: null
+  repository: https://github.com/krasserm/bot-with-plan
+  date: 2024-06-26
+  technologies:
+  - PyTorch
+  - HF Transformers
+  - HF TRL
+  - HF Bitsandbytes
+  - HF PEFT
+  - HF Datasets
+  - HF Accelerate
+  - llama.cpp
+  - LangChain
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Planner fine-tuning on synthetic agent trajectories.
+  url: https://krasserm.github.io/2024/05/31/planner-fine-tuning/
+  description: null
+  repository: https://github.com/krasserm/bot-with-plan
+  notebook: https://github.com/krasserm/bot-with-plan/blob/master/planner_finetuned.ipynb
+  date: 2024-05-31
+  technologies:
+  - PyTorch
+  - HF Transformers
+  - HF AutoTrain
+  - HF Bitsandbytes
+  - HF PEFT
+  - HF Datasets
+  - HF Accelerate
+  - llama.cpp
+  - LangChain
+  - Faiss
+  - SearXNG
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Separation of planning concerns in ReAct-style LLM agents.
+  url: https://krasserm.github.io/2024/03/06/modular-agent/
+  description: null
+  repository: https://github.com/krasserm/bot-with-plan/tree/wip-article-2
+  notebook: https://github.com/krasserm/bot-with-plan/blob/wip-article-2/example_agent.ipynb
+  date: 2024-03-06
+  technologies:
+  - PyTorch
+  - HF Sentence Transformers
+  - llama.cpp
+  - LangChain
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Schema-guided generation with open LLMs.
+  url: https://krasserm.github.io/2023/12/18/llm-json-mode/
+  description: null
+  repository: https://github.com/krasserm/bot-with-plan
+  notebook: https://github.com/krasserm/bot-with-plan/blob/master/json_mode.ipynb
+  date: 2023-12-18
+  technologies:
+  - PyTorch
+  - llama.cpp
+  - LangChain
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Schema-guided generation in LangChain agents.
+  url: https://krasserm.github.io/2023/12/10/grammar-based-agents/
+  description: null
+  repository: https://github.com/krasserm/bot-with-plan/tree/wip-article-1
+  notebook: https://github.com/krasserm/bot-with-plan/blob/wip-article-1/example_agent.ipynb
+  date: 2023-12-10
+  technologies:
+  - llama.cpp
+  - LangChain
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Extending Visual ChatGPT with image search engines.
+  url: https://krasserm.github.io/2023/04/03/visual-chatgpt-search/
+  description: null
+  repository: https://github.com/krasserm/visual-chatgpt
+  date: 2023-04-03
+  technologies:
+  - PyTorch
+  - clip-retrieval
+  - LangChain
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Training compute-optimal Perceiver AR language models.
+  url: https://krasserm.github.io/2023/01/23/scaling-perceiver-ar/
+  description: null
+  repository: https://github.com/krasserm/perceiver-io/tree/main/examples/scaling/clm
+  notebook: https://github.com/krasserm/perceiver-io/blob/main/examples/scaling/clm/article.ipynb
+  date: 2023-01-23
+  technologies:
+  - PyTorch
+  - PyTorch Lightning
+  - HF Transformers
+  - HF Tokenizers
+  - HF Datasets
+  - pandas
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: A gentle introduction to Rotary Position Embedding.
+  url: https://krasserm.github.io/2022/12/13/rotary-position-embedding/
+  description: null
+  repository: https://github.com/krasserm/perceiver-io
+  date: 2022-12-13
+  technologies:
+  - PyTorch
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Using AWS SageMaker with minimal dependencies, part 2. Fault-tolerant model
+    training on spot instances
+  url: https://krasserm.github.io/2022/02/26/sagemaker-fault-tolerance/
+  description: null
+  repository: https://github.com/krasserm/sagemaker-tutorial/tree/wip-part-2
+  date: 2022-02-26
+  technologies:
+  - PyTorch
+  - PyTorch Lightning
+  - AWS Sagemaker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+  - distributed-system
+- title: Using AWS SageMaker with minimal dependencies, part 1. Distributed model
+    training with PyTorch Lightning
+  url: https://krasserm.github.io/2022/01/21/sagemaker-multi-node/
+  description: null
+  repository: https://github.com/krasserm/sagemaker-tutorial/tree/wip-part-1
+  date: 2022-01-21
+  technologies:
+  - PyTorch
+  - PyTorch Lightning
+  - AWS Sagemaker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+  - distributed-system
+- title: Sparse Gaussian processes.
+  url: https://krasserm.github.io/2020/12/12/gaussian-processes-sparse/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/gaussian-processes/gaussian_processes_sparse.ipynb
+  date: 2020-12-12
+  technologies:
+  - NumPy
+  - SciPy
+  - JAX
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Gaussian processes for classification.
+  url: https://krasserm.github.io/2020/11/04/gaussian-processes-classification/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/gaussian-processes/gaussian_processes_classification.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2020%2F11%2F04%2Fgaussian-processes-classification%22
+  date: 2020-11-04
+  technologies:
+  - NumPy
+  - SciPy
+  - scikit-learn
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Reliable uncertainty estimates for neural network predictions.
+  url: https://krasserm.github.io/2020/09/25/reliable-uncertainty-estimates/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/noise-contrastive-priors/ncp.ipynb
+  date: 2020-09-25
+  technologies:
+  - Tensorflow
+  - Tensorflow Probability
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Latent variable models, part 2. Stochastic variational inference and variational
+    autoencoders
+  url: https://krasserm.github.io/2019/12/17/latent-variable-models-part-2/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/latent-variable-models/latent_variable_models_part_2.ipynb
+  date: 2019-12-17
+  technologies:
+  - Tensorflow
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Latent variable models, part 1. Gaussian mixture models and the EM algorithm
+  url: https://krasserm.github.io/2019/11/21/latent-variable-models-part-1/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/latent-variable-models/latent_variable_models_part_1.ipynb
+  date: 2019-11-21
+  technologies:
+  - NumPy
+  - SciPy
+  - scikit-learn
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Single image super-resolution with deep neural networks.
+  url: https://krasserm.github.io/2019/09/04/super-resolution/
+  description: null
+  repository: https://github.com/krasserm/super-resolution
+  notebook: https://github.com/krasserm/super-resolution/blob/master/article.ipynb
+  citations: https://scholar.google.com/scholar?q=%22github.com%2Fkrasserm%2Fsuper-resolution%22+OR+%22krasserm.github.io%2F2019%2F09%2F04%2Fsuper-resolution%22
+  date: 2019-09-04
+  technologies:
+  - Tensorflow
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Variational inference in Bayesian neural networks.
+  url: https://krasserm.github.io/2019/03/14/bayesian-neural-networks/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/bayesian-neural-networks/bayesian_neural_networks.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2019%2F03%2F14%2Fbayesian-neural-networks%22
+  date: 2019-03-14
+  technologies:
+  - Tensorflow
+  - Tensorflow Probability
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Bayesian regression with linear basis function models.
+  url: https://krasserm.github.io/2019/02/23/bayesian-linear-regression/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/bayesian-linear-regression/bayesian_linear_regression.ipynb
+  date: 2019-02-23
+  technologies:
+  - NumPy
+  - scikit-learn
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Weight normalization options for Keras and Tensorflow.
+  url: https://krasserm.github.io/2018/11/10/weightnorm-implementation-options/
+  description: null
+  repository: https://github.com/krasserm/weightnorm/tree/master/keras_2
+  date: 2018-11-10
+  technologies:
+  - Tensorflow
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Deep feature consistent variational autoencoder.
+  url: https://krasserm.github.io/2018/07/27/dfc-vae/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/autoencoder-applications/variational_autoencoder_dfc.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2018%2F07%2F27%2Fdfc-vae%22
+  date: 2018-07-27
+  technologies:
+  - Keras
+  - OpenCV
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Conditional generation via Bayesian optimization in latent space.
+  url: https://krasserm.github.io/2018/04/07/latent-space-optimization/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/autoencoder-applications/variational_autoencoder_opt.ipynb
+  date: 2018-04-07
+  technologies:
+  - Keras
+  - GPyOpt
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Bayesian optimization.
+  url: https://krasserm.github.io/2018/03/21/bayesian-optimization/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/bayesian-optimization/bayesian_optimization.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2018%2F03%2F21%2Fbayesian-optimization%22
+  date: 2018-03-21
+  technologies:
+  - NumPy
+  - SciPy
+  - scikit-learn
+  - scikit-optimize
+  - GPyOpt
+  - XGBoost
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Gaussian processes.
+  url: https://krasserm.github.io/2018/03/19/gaussian-processes/
+  description: null
+  repository: https://github.com/krasserm/bayesian-machine-learning
+  notebook: https://github.com/krasserm/bayesian-machine-learning/blob/dev/gaussian-processes/gaussian_processes.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2018%2F03%2F19%2Fgaussian-processes%22
+  date: 2018-03-19
+  technologies:
+  - NumPy
+  - SciPy
+  - scikit-learn
+  - GPy
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: Deep face recognition with Keras, Dlib and OpenCV.
+  url: https://krasserm.github.io/2018/02/07/deep-face-recognition/
+  description: null
+  repository: https://github.com/krasserm/face-recognition
+  notebook: https://github.com/krasserm/face-recognition/blob/master/face-recognition.ipynb
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2018%2F02%2F07%2Fdeep-face-recognition%22+OR+%22github.com%2Fkrasserm%2Fface-recognition%22
+  date: 2018-02-07
+  technologies:
+  - Keras
+  - OpenCV
+  - scikit-learn
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- title: A service framework for operation-based CRDTs.
+  url: https://krasserm.github.io/2016/10/19/operation-based-crdt-framework/
+  description: null
+  repository: https://github.com/RBMHTechnology/eventuate
+  citations: https://scholar.google.com/scholar?q=%22rbmhtechnology.github.io%2Feventuate%22+AND+%22CRDT%22
+  date: 2016-10-19
+  technologies:
+  - Eventuate
+  - Akka
+  - LevelDB
+  languages:
+  - Scala
+  tags:
+  - distributed-system
+  - event-sourcing
+- title: A comparison of Akka Persistence with Eventuate.
+  url: https://krasserm.github.io/2015/05/25/akka-persistence-eventuate-comparison/
+  description: null
+  date: 2015-05-25
+  technologies:
+  - Eventuate
+  - Akka
+  - Akka Persistence
+  - Apache Cassandra
+  - LevelDB
+  languages:
+  - Scala
+  tags:
+  - distributed-system
+  - event-sourcing
+- title: Event sourcing at global scale.
+  url: https://krasserm.github.io/2015/01/13/event-sourcing-at-global-scale/
+  description: null
+  repository: https://github.com/RBMHTechnology/eventuate
+  citations: https://scholar.google.com/scholar?q=%22rbmhtechnology.github.io%2Feventuate%22
+  date: 2015-01-13
+  technologies:
+  - Eventuate
+  - Akka
+  languages:
+  - Scala
+  tags:
+  - distributed-system
+  - event-sourcing
+- title: Introduction to Akka Persistence.
+  url: https://krasserm.blogspot.com/2013/12/introduction-to-akka-persistence.html
+  description: null
+  date: 2013-12-16
+  technologies:
+  - Akka
+  - Akka Persistence
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- title: Eventsourced for Akka - A high-level technical overview.
+  url: https://krasserm.blogspot.com/2013/03/eventsourced-for-akka-high-level.html
+  description: null
+  repository: https://github.com/eligosource/eventsourced
+  date: 2013-03-20
+  technologies:
+  - Akka
+  - Eventsourced
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- title: Event sourcing and external service integration.
+  url: https://krasserm.blogspot.com/2013/01/event-sourcing-and-external-service.html
+  description: null
+  repository: https://github.com/eligosource/eventsourced
+  date: 2013-01-31
+  technologies:
+  - Akka
+  - Eventsourced
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+  - system-integration
+- title: Using JAXB for XML and JSON APIs in Scala Web Applications.
+  url: https://krasserm.blogspot.com/2012/02/using-jaxb-for-xml-and-json-apis-in.html
+  description: null
+  date: 2012-02-23
+  technologies:
+  - Play Framework
+  - Akka
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: 'Akka Producer Actors: New Features and Best Practices.'
+  url: https://krasserm.blogspot.com/2011/02/akka-producer-actor-new-features-and.html
+  description: null
+  date: 2011-02-28
+  technologies:
+  - Akka
+  - Apache Camel
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: 'Akka Consumer Actors: New Features and Best Practices.'
+  url: https://krasserm.blogspot.com/2011/02/akka-consumer-actors-new-features-and.html
+  description: null
+  date: 2011-02-17
+  technologies:
+  - Akka
+  - Apache Camel
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: Akka and Camel, Appendix E of Camel in Action.
+  url: https://manning-content.s3.amazonaws.com/download/b/ae4ebfa-c4dd-413f-8f1a-1ce1f86816b8/appEsample.pdf
+  description: null
+  date: 2010-12-01
+  technologies:
+  - Akka
+  - Apache Camel
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: Introduction to the Open eHealth Integration Platform.
+  url: https://dzone.com/articles/introduction-open-ehealth
+  description: null
+  repository: https://github.com/oehf/ipf
+  citations: https://scholar.google.com/scholar?q=%22dzone.com%2Farticles%2Fintroduction-open-ehealth%22
+  date: 2010-10-01
+  technologies:
+  - Apache Camel
+  - Apache ActiveMQ
+  - Spring Framework
+  - Open eHealth Integration Platform
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- title: Akka's grown-up hump.
+  url: https://krasserm.blogspot.com/2010/08/akkas-grown-up-hump.html
+  description: null
+  date: 2010-08-30
+  technologies:
+  - Akka
+  - Apache Camel
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: Akka features for application integration.
+  url: https://krasserm.blogspot.com/2010/04/akka-features-for-application.html
+  description: null
+  date: 2010-04-03
+  technologies:
+  - Akka
+  - Apache Camel
+  - Open eHealth Integration Platform
+  languages:
+  - Scala
+  tags:
+  - system-integration
+- title: Accessing a security-enabled Google App Engine service with Apache Camel.
+  url: https://krasserm.blogspot.com/2010/02/accessing-security-enabled-google-app.html
+  description: null
+  date: 2010-02-07
+  technologies:
+  - Apache Camel
+  - GCP
+  languages:
+  - Java
+  tags:
+  - system-integration
+- title: Add OAuth to your web application with Apache Camel.
+  url: https://krasserm.blogspot.com/2010/02/add-oauth-to-your-web-application-with.html
+  description: null
+  date: 2010-02-07
+  technologies:
+  - Apache Camel
+  languages:
+  - Java
+  tags:
+  - system-integration
+- title: Accessing a security-enabled Google App Engine service from a Java client.
+  url: https://krasserm.blogspot.com/2010/01/accessing-security-enabled-google-app.html
+  description: null
+  date: 2010-01-14
+  technologies:
+  - GCP
+  languages:
+  - Java
+  tags:
+  - system-integration
+- title: New features in grails-jaxrs 0.3.
+  url: https://krasserm.blogspot.com/2009/12/new-features-in-grails-jaxrs-03.html
+  description: null
+  repository: https://github.com/krasserm/grails-jaxrs
+  date: 2009-12-12
+  technologies:
+  - Grails
+  languages:
+  - Groovy
+  tags:
+  - system-integration
+- title: Camel components for Google App Engine.
+  url: https://krasserm.blogspot.com/2009/11/camel-components-for-google-app-engine.html
+  description: null
+  date: 2009-11-17
+  technologies:
+  - Apache Camel
+  - GCP
+  languages:
+  - Java
+  tags:
+  - system-integration
+- title: First steps with Apache Camel on Google App Engine.
+  url: https://krasserm.blogspot.com/2009/10/first-steps-with-apache-camel-on-google.html
+  description: null
+  date: 2009-10-18
+  technologies:
+  - Apache Camel
+  - Spring Framework
+  - GCP
+  languages:
+  - Java
+  tags:
+  - system-integration
+- title: IPF 2.0 milestone 2 and IPF Tools milestones released.
+  url: https://krasserm.blogspot.com/2009/10/ipf-20-milestone-2-and-ipf-tools.html
+  description: null
+  repository: https://github.com/oehf/ipf
+  date: 2009-10-14
+  technologies:
+  - Open eHealth Integration Platform
+  - Apache Camel
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- title: IPF 1.7.0 released.
+  url: https://krasserm.blogspot.com/2009/10/ipf-170-released.html
+  description: null
+  repository: https://github.com/oehf/ipf
+  date: 2009-10-07
+  technologies:
+  - Open eHealth Integration Platform
+  - Apache Camel
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- title: New release of JSR 311 plugin for Grails.
+  url: https://krasserm.blogspot.com/2009/09/its-about-two-weeks-ago-that-latest.html
+  description: null
+  repository: https://github.com/krasserm/grails-jaxrs
+  date: 2009-09-23
+  technologies:
+  - Grails
+  languages:
+  - Groovy
+  tags:
+  - system-integration
+- title: JSR 311 plugin for Grails.
+  url: https://krasserm.blogspot.com/2009/07/jsr-311-plugin-for-grails.html
+  description: null
+  repository: https://github.com/krasserm/grails-jaxrs
+  date: 2009-07-08
+  technologies:
+  - Grails
+  languages:
+  - Groovy
+  tags:
+  - system-integration
+- title: Moving towards IPF 1.7.
+  url: https://krasserm.blogspot.com/2009/05/moving-towards-ipf-17.html
+  description: null
+  repository: https://github.com/oehf/ipf
+  date: 2009-05-24
+  technologies:
+  - Open eHealth Integration Platform
+  - Apache Camel
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- title: Open eHealth Integration Platform 1.6.0 released.
+  url: https://krasserm.blogspot.com/2009/04/open-ehealth-integration-platform-160.html
+  description: null
+  repository: https://github.com/oehf/ipf
+  date: 2009-04-13
+  technologies:
+  - Open eHealth Integration Platform
+  - Apache Camel
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- title: "Gesch\xFCtzte Objekte - Instanzbasierte Zugriffskontrolle. Architekturkonzepte\
+    \ und Implementierung"
+  url: https://safr.sourceforge.net/extern/safr-article-jm.pdf
+  description: null
+  repository: https://safr.sourceforge.net/
+  citations: https://www.bibsonomy.org/bibtex/1f8feb379a5e0a4129e1b1e6a8a8ca5b
+  date: 2007-01-01
+  technologies:
+  - Spring Framework
+  - OSGi
+  languages:
+  - Java
+courses:
+- title: Full Stack Deep Learning
+  certificate: https://verified.sertifier.com/en/verify/53544649159797/
+  date: 2021-05-28
+- title: Bayesian Methods for Machine Learning
+  certificate: https://www.coursera.org/account/accomplishments/certificate/JCLCTLAFA6FL
+  date: 2018-03-14
+- title: Deep Learning Specialization
+  certificate: https://www.coursera.org/account/accomplishments/specialization/certificate/N7D4G6K9RUJ5
+  date: 2018-02-13
+- title: Sequence Models
+  certificate: https://www.coursera.org/account/accomplishments/certificate/LW9F67WHE9BD
+  date: 2018-02-13
+- title: Convolutional Neural Networks
+  certificate: https://www.coursera.org/account/accomplishments/certificate/KHC48MXMABUS
+  date: 2017-12-15
+- title: Structuring Machine Learning Projects
+  certificate: https://www.coursera.org/account/accomplishments/certificate/BZ4VKF7ZP4D8
+  date: 2017-12-11
+- title: 'Improving Deep Neural Networks: Hyperparameter tuning, Regularization and
+    Optimization'
+  certificate: https://www.coursera.org/account/accomplishments/certificate/SRW2KEFARWQD
+  date: 2017-12-08
+- title: Neural Networks and Deep Learning
+  certificate: https://www.coursera.org/account/accomplishments/certificate/9H2KQFF4UZJF
+  date: 2017-12-05
+- title: Bayesian Statistics
+  certificate: https://www.coursera.org/account/accomplishments/certificate/Y6BXN4STWKTA
+  date: 2017-11-24
+- title: Inferential statistics
+  certificate: https://www.coursera.org/account/accomplishments/certificate/CC2MMS6X7H86
+  date: 2017-11-06
+- title: Machine Learning
+  certificate: https://martin-krasser.com/certificates/coursera/machinelearning/certificate-2014-machine-learning.pdf
+  date: 2014-06-04
+- title: Principles of Reactive Programming
+  certificate: https://martin-krasser.com/certificates/coursera/reactive/certificate-2014-reactive.pdf
+  date: 2014-01-20
+- title: Functional Programming Principles in Scala
+  certificate: https://martin-krasser.com/certificates/coursera/fpscala/certificate-2012-fpscala.pdf
+  date: 2012-12-05
+projects-industry:
+- name: Scaling and extending AI Visual Search
+  description: Scaling and extending AI Visual Search. Development of a cloud-native
+    platform for scaling Canto's AI Visual Search solutions to thousands of customers.
+    Development of hybrid search algorithms and research prototypes for inclusion
+    of customer-specific asset metadata into AI Visual Search. Responsible for all
+    AI search related research and development efforts at Canto.
+  company: '[Canto](https://www.canto.com/)'
+  role:
+  - Senior Director Machine Learning
+  - Lead Machine Learning Engineer
+  freelance: true
+  date_from: 2023-08-01
+  date_to: null
+  technologies:
+  - PyTorch
+  - HF Transformers
+  - HF TRL
+  - HF Bitsandbytes
+  - HF Sentence Transformers
+  - HF PEFT
+  - HF Datasets
+  - HF Accelerate
+  - HF Text Generation Inference
+  - llama.cpp
+  - LangChain
+  - Apache Kafka
+  - ElasticSearch
+  - PostgreSQL
+  - Qdrant
+  - Milvus
+  - scikit-learn
+  - pandas
+  - OpenCV
+  - Docker
+  - Kubernetes
+  - AWS
+  - Terraform
+  - Weights & Biases
+  languages:
+  - Python
+  tags:
+  - machine-learning
+  - distributed-system
+- name: Merlin Accelerated Intelligence (AI) Suite
+  description: Merlin Accelerated Intelligence (AI) Suite. Development of an AI search
+    engine for semantic image, video, sound and document search in the MerlinOne digital
+    asset management system. Supports facial recognition for identity-constrained
+    searches and image aesthetics assessment for selecting images with highest perceived
+    quality. Tuning of AI models and search indices on customer-specific data. Running
+    in production at several customer sites, including the publicly accessible AP
+    Newsroom (see also press release). Responsible for all ML research and development
+    efforts at MerlinOne. The success of the Merlin AI Suite was a major factor in
+    the acquisition of MerlinOne by Canto in 2023.
+  company: '[MerlinOne](https://merlinone.com/)'
+  role:
+  - Director Machine Learning
+  - Lead Machine Learning Engineer
+  freelance: true
+  date_from: 2018-04-01
+  date_to: 2023-08-31
+  technologies:
+  - PyTorch
+  - PyTorch Lightning
+  - Keras
+  - Tensorflow
+  - HF Transformers
+  - HF PEFT
+  - scikit-learn
+  - spaCy
+  - Faiss
+  - OpenCV
+  - AWS
+  - AWS SageMaker
+  - Apache Kafka
+  - SQL Server
+  - MongoDB
+  - Docker
+  - Terraform
+  - Weights & Biases
+  languages:
+  - Python
+  tags:
+  - machine-learning
+  - distributed-system
+- name: Sabbatical year
+  description: Sabbatical year. Deep dive into mathematics, statistics, "traditional"
+    machine learning and deep learning. Certifications from online courses. Publication
+    of exercise and research work in articles and open source projects. Equal focus
+    on scientific and engineering aspects.
+  company: '[https://martin-krasser.com](https://martin-krasser.com)'
+  role:
+  - Machine learning sabbatical
+  freelance: false
+  date_from: 2017-05-01
+  date_to: 2018-04-30
+  tags:
+  - machine-learning
+- name: Global distribution of a digital asset management system
+  description: Global distribution of a digital asset management system. Global distribution
+    of the data management layer of RBMH's in-house DAM system for low-latency and
+    partition-tolerant access to local datacenters. The developed inter-datacenter
+    replication mechanism provides causal consistency guarantees and supports convergence
+    of application state under concurrent updates via operation-based CRDTs. The generic
+    part of the solution was open-sourced as Eventuate toolkit. Production deployment
+    to multiple datacenters world-wide. Responsible for conception, architecture,
+    design and implementation of Eventuate and its in-house applications. Eventuate
+    is an evolution of Akka Persistence which I developed in another project.
+  company: '[Red Bull Media House](http://www.redbullmediahouse.com/)'
+  role:
+  - Distributed Systems Engineer
+  freelance: true
+  date_from: 2014-09-01
+  date_to: 2017-08-31
+  technologies:
+  - Eventuate
+  - Akka
+  - Apache Cassandra
+  - Apache Spark
+  - Apache Kafka
+  - Apache ZooKeeper
+  languages:
+  - Scala
+  - Java
+  tags:
+  - distributed-system
+  - event-sourcing
+- name: Streaming platform for sports betting applications
+  description: Streaming platform for sports betting applications. Development of
+    a streaming platform for calculating real-time odds and risk models in sports
+    betting applications. Bets on odds from up to hundred bookmakers, each with several
+    thousand constantly changing odds, are used to calculate models for adjusting
+    a bookmaker's odds such that their risk is minimized. Development of streaming
+    data analytics extensions for Eventuate. Consultation on event sourcing best practices
+    for all relevant use cases and responsible for their implementation with the Eventuate
+    toolkit.
+  company: '[agido GmbH](http://www.agido.com/)'
+  role:
+  - Distributed Systems Engineer
+  freelance: true
+  date_from: 2015-10-01
+  date_to: 2017-07-31
+  technologies:
+  - Eventuate
+  - Akka
+  - Apache Cassandra
+  - Apache Spark
+  languages:
+  - Scala
+  - Java
+  tags:
+  - distributed-system
+  - event-sourcing
+- name: 'Akka Persistence: actor state persistence via event sourcing'
+  description: 'Akka Persistence: actor state persistence via event sourcing. Development
+    of Akka Persistence which enables stateful Akka actors to persist their state
+    via event sourcing. Events are written to append-only storage which allows for
+    very high transaction rates and efficient replication. A stateful actor is recovered
+    by replaying stored events to the actor, allowing it to rebuild its internal state.
+    Implementation in numerous commercial and open-source projects. Responsible for
+    all phases of the project, from initial idea to production quality code. Akka
+    Persistence is an evolution of Eventsourced, a predecessor that I developed in
+    a prior project.'
+  company: '[Lightbend](http://www.lightbend.com/)'
+  role:
+  - Software Engineer
+  - Software Architect
+  freelance: true
+  date_from: 2013-10-01
+  date_to: 2014-02-28
+  technologies:
+  - Akka
+  - Apache Cassandra
+  - LevelDB
+  languages:
+  - Scala
+  - Java
+  tags:
+  - event-sourcing
+- name: Low-latency, high-throughput e-wallet management web service
+  description: Low-latency, high-throughput e-wallet management web service. Developmenent
+    of the persistence layer of an e-wallet management web service for customers in
+    the online gambling industry. Implementation of an event sourcing architecture
+    for supporting low-latency and high-throughput transactions. The core components
+    of the persistence layer were open-sourced as Eventsourced library. Responsible
+    for conception, design and implementation of Eventsourced and its integration
+    into Eligotech products.
+  company: '[Eligotech BV](http://www.eligotech.com/)'
+  role:
+  - Software Engineer
+  - Software Architect
+  freelance: true
+  date_from: 2012-03-01
+  date_to: 2013-10-31
+  technologies:
+  - Eventsourced
+  - Akka
+  - LevelDB
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- name: Freelance software development and consulting services
+  description: Freelance software development and consulting services. Research and
+    development for industry machine learning projects, mainly deep learning. Software
+    development services with a focus on backend software and distributed systems.
+    Open source contributions to machine learning, distributed systems, event sourcing
+    and system integration projects.
+  company: '[https://martin-krasser.com](https://martin-krasser.com)'
+  role:
+  - Software Engineer
+  - Machine Learning Engineer
+  freelance: true
+  date_from: 2011-04-01
+  date_to: null
+  tags:
+  - machine-learning
+  - distributed-system
+  - event-sourcing
+  - system-integration
+- name: E-Health integration platform based on HL7 and IHE standards
+  description: E-Health integration platform based on HL7 and IHE standards. Development
+    of the Open eHealth Integration Platform (IPF), a platform for integrating healthcare
+    information systems. IPF was open sourced in 2008 after several years of in-house
+    development and application in customer projects. IPF's programming model is a
+    domain-specific language (DSL) for implementing enterprise integration patterns
+    in healthcare-specific integration solutions, based on HL7 and IHE standards.
+    Production deployments in many healthcare integration solution world-wide. IPF
+    is still actively maintained today, by contributors from several healthcare integration
+    providers. Responsible for conception, design and implementation of IPF and its
+    application in customer projects. Founder of the open source project and lead
+    developer until 2010.
+  company: '[InterComponentWare AG](https://icw-global.com/)'
+  role:
+  - Lead Software Architect
+  - Senior Software Engineer
+  freelance: false
+  date_from: 2005-01-01
+  date_to: 2011-01-31
+  technologies:
+  - Open eHealth Integration Platform
+  - Apache Camel
+  - Spring Framework
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- name: Distributed scientific computing solution for a drug discovery pipeline
+  description: Distributed scientific computing solution for a drug discovery pipeline.
+    Development of a distributed computing solution for integrating chemical analysis
+    tools in a drug discovery pipeline, with fault-tolerant scheduling of tool executions
+    and aggregation of analysis results, for unified experience across research locations
+    in different countries. Implementation of high-performance hierarchical clustering
+    algorithms that reduced analysis times by 1-2 orders of magnitude. Running for
+    several years in production at Bayer AG. Responsible for architecture, design
+    and implementation of the solution and its continuous improvement based on close
+    collaboration with researchers.
+  company: '[LION Bioscience AG](http://www.lionbioscience.com/)'
+  role:
+  - Senior Software Architect
+  - Senior Software Engineer
+  freelance: false
+  date_from: 2000-09-01
+  date_to: 2004-12-31
+  technologies:
+  - JBoss
+  - Oracle Database
+  languages:
+  - Java
+  - C++
+  tags:
+  - distributed-system
+  - system-integration
+- name: Ab-initio protein structure prediction
+  description: Ab-initio protein structure prediction. Development of algorithms and
+    software for ab-initio protein structure prediction. Application of statistical
+    mechanics for protein structure optimization and evaluation.
+  company: '[University of Salzburg](http://uni-salzburg.at/), CAME'
+  role:
+  - Software Developer
+  - Research Assistant
+  freelance: false
+  date_from: 1999-09-01
+  date_to: 2000-08-31
+  languages:
+  - C++
+  tags:
+  - machine-learning
+- name: Patient transportation management system
+  description: Patient transportation management system. Development of a patient
+    transportation management system in the IT department of the Red Cross in Graz,
+    Austria. Work done during my civil service at the Red Cross.
+  company: '[Austrian Red Cross](http://www.roteskreuz.at/)'
+  role:
+  - Software Developer
+  freelance: false
+  date_from: 1998-07-01
+  date_to: 1999-01-31
+  languages:
+  - Visual Basic
+projects-opensource-3rdparty:
+- name: langchain-ai/langchain
+  url: https://github.com/langchain-ai/langchain
+  contributions: https://github.com/search?q=repo%3Alangchain-ai%2Flangchain+author%3Akrasserm&type=pullrequests&s=created&o=asc
+  description: langchain-ai/langchain. LangChain is a framework for developing applications
+    powered by large language models (LLMs). It provides chains, agents, and retrieval
+    strategies that make up an application's cognitive architecture. Third party integrations
+    provide access to provider-specific components like LLMs, vector stores, retrievers
+    and many more.
+  founder: false
+  technologies:
+  - LangChain
+  - llama.cpp
+  - HF Text Generation Inference
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+  - system-integration
+- name: ggerganov/llama.cpp
+  url: https://github.com/ggerganov/llama.cpp
+  contributions: https://github.com/search?q=repo%3Aggerganov%2Fllama.cpp+author%3Akrasserm&type=pullrequests&s=created&o=asc
+  description: ggerganov/llama.cpp. llama.cpp enables large language model (LLM) inference
+    in C/C++, with minimal setup and state-of-the-art performance on a wide variety
+    of hardware. It also supports integer quantization from 1.5-bit to 8-bit, which
+    significantly enhances the speed of inference while reducing memory requirements.
+  founder: false
+  technologies:
+  - llama.cpp
+  languages:
+  - C++
+  - Python
+  tags:
+  - machine-learning
+- name: rom1504/clip-retrieval
+  url: https://github.com/rom1504/clip-retrieval
+  contributions: https://github.com/search?q=repo%3Arom1504%2Fclip-retrieval+author%3Akrasserm&type=pullrequests
+  description: rom1504/clip-retrieval. This project enables users to easily compute
+    CLIP embeddings and build efficient retrieval systems for text and image data.
+    It offers a comprehensive suite of tools for inference, indexing, filtering, and
+    serving, allowing users to create semantic search systems that can scale to billions
+    of samples with high performance.
+  founder: false
+  technologies:
+  - PyTorch
+  - Faiss
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: rbmhtechnology/eventuate
+  url: https://github.com/rbmhtechnology/eventuate
+  contributions: https://github.com/search?q=repo%3ARBMHTechnology%2Feventuate+author%3Akrasserm&type=commits
+  citations: https://scholar.google.com/scholar?q=%22rbmhtechnology.github.io%2Feventuate%22
+  description: rbmhtechnology/eventuate. Eventuate is a toolkit for building applications
+    composed of event-driven and event-sourced services that communicate via causally
+    ordered event streams. Services can either be co-located on a single node or distributed
+    up to global scale. Service state can be replicated with causal consistency guarantees
+    and remains available for concurrent writes during network partitions.
+  founder: true
+  technologies:
+  - Akka
+  - Apache Cassandra
+  - Apache Spark
+  - LevelDB
+  - Eventuate
+  languages:
+  - Scala
+  - Java
+  tags:
+  - distributed-system
+  - event-sourcing
+- name: akka/akka
+  url: https://github.com/akka/akka
+  contributions: https://github.com/search?q=repo%3Aakka%2Fakka+author%3Akrasserm&type=pullrequests
+  description: akka/akka. Akka is an open-source toolkit for building highly concurrent,
+    distributed, and resilient message-driven applications, implementing the Actor
+    Model on the JVM. It provides developers with tools to create systems that scale
+    efficiently, self-heal, maintain responsiveness during failures, and handle high-performance
+    scenarios, all while offering features like distributed data management, reactive
+    streaming, and elastic deployment. My main contribution to Akka is the Akka Persistence
+    module.
+  founder: false
+  technologies:
+  - Akka
+  - Akka Persistence
+  languages:
+  - Scala
+  - Java
+  tags:
+  - distributed-system
+  - event-sourcing
+- name: akka/alpakka
+  url: https://github.com/akka/alpakka
+  contributions: https://github.com/search?q=repo%3Aakka%2Falpakka+author%3Akrasserm&type=pullrequests
+  description: akka/alpakka. The Alpakka project is an initiative for implementing
+    reactive and stream-aware integration pipelines based on Akka Streams. It provides
+    a domain-specific language (DSL) for reactive and stream-oriented programming,
+    with built-in support for end-to-end backpressure. It supports a variety of integrations
+    and ensures interoperability with other Reactive Streams implementations.
+  founder: false
+  technologies:
+  - Akka Streams
+  - Streamz
+  - Eventuate
+  languages:
+  - Scala
+  - Java
+  tags:
+  - system-integration
+- name: akka/akka-persistence-cassandra
+  url: https://github.com/akka/akka-persistence-cassandra
+  contributions: https://github.com/search?q=repo%3Aakka%2Fakka-persistence-cassandra+author%3Akrasserm&type=commits
+  description: akka/akka-persistence-cassandra. This project provides a persistence
+    plugin for Akka Persistence that uses Apache Cassandra as storage backend. Akka
+    Persistence enables stateful Akka actors to persist their state via event sourcing,
+    using persistence plugins that implement a common interface for storage backends.
+  founder: true
+  technologies:
+  - Akka
+  - Akka Persistence
+  - Apache Cassandra
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- name: eligosource/eventsourced
+  url: https://github.com/eligosource/eventsourced
+  contributions: https://github.com/search?q=repo%3Aeligosource%2Feventsourced+author%3Akrasserm&type=commits
+  description: eligosource/eventsourced. Eventsourced is a library for building reliable,
+    scalable, and distributed event-sourced applications. It adds scalable actor state
+    persistence and at-least-once message delivery guarantees to Akka, allowing stateful
+    actors to persist received messages to append-only storage and to recover state
+    by replaying received messages. It is now superseded by the Akka Persistence module
+    of the Akka project.
+  founder: true
+  technologies:
+  - Akka
+  - LevelDB
+  - Apache HBase
+  - Amazon DynamoDB
+  - MongoDB
+  - Eventsourced
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- name: oehf/ipf
+  url: https://github.com/oehf/ipf
+  contributions: https://github.com/search?q=repo%3Aoehf%2Fipf+author%3Akrasserm&type=commits
+  citations: https://scholar.google.com/scholar?q=%22github.com%2Foehf%2Fipf%22+OR+%22oehf.github.io%2Fipf%22+OR+%22dzone.com%2Farticles%2Fintroduction-open-ehealth%22
+  description: oehf/ipf. The Open eHealth Integration Platform (IPF) offers a comprehensive
+    set of tools for creating healthcare-related integration solutions. It is built
+    on top of Apache Camel and provides a custom domain-specific language (DSL) for
+    implementing enterprise integration patterns in healthcare-specific integration
+    solutions, based on HL7 and IHE standards.
+  founder: true
+  technologies:
+  - Apache Camel
+  - Apache ActiveMQ
+  - Spring Framework
+  - Open eHealth Integration Platform
+  languages:
+  - Java
+  - Groovy
+  tags:
+  - system-integration
+- name: apache/camel
+  url: https://github.com/apache/camel
+  contributions: https://github.com/search?q=repo%3Aapache%2Fcamel+krasser&type=commits
+  description: apache/camel. Apache Camel is an integration framework that simplifies
+    the integration of different systems by supporting numerous enterprise integration
+    patterns and data formats. It can be used standalone or embedded in other applications,
+    making it deployable to various environments including cloud-based services.
+  founder: false
+  technologies:
+  - Apache Camel
+  languages:
+  - Java
+  tags:
+  - system-integration
+- name: safr
+  url: https://safr.sourceforge.net/
+  contributions: https://sourceforge.net/p/safr/code/206/log/
+  description: safr. The Security Annotation Framework (SAF) is a framework for instance-level
+    access control and field-level encryption. Access-control decisions at class-instance-level
+    and crypto operations at field-level are enforced using Java 5 annotations.
+  founder: true
+  technologies:
+  - Spring Framework
+  - OSGi
+  languages:
+  - Java
+projects-opensource-personal:
+- name: krasserm/bot-with-plan
+  url: https://github.com/krasserm/bot-with-plan
+  description: krasserm/bot-with-plan. The bot-with-plan project is experimental work
+    on separating planning from function calling in ReAct-style LLM agents, allowing
+    for better utilization of smaller LLMs and easier generation of synthetic datasets
+    for planner fine-tuning. It provides 7B LLMs fine-tuned on synthetic agent trajectories
+    that reach GPT-4 level planning performance. The implementation makes heavy use
+    of schema-guided generation for reliable communication between agent modules.
+  founder: true
+  technologies:
+  - PyTorch
+  - HF Transformers
+  - HF TRL
+  - HF Bitsandbytes
+  - HF Sentence Transformers
+  - HF PEFT
+  - HF Datasets
+  - HF Accelerate
+  - llama.cpp
+  - LangChain
+  - Faiss
+  - ChromaDB
+  - SearXNG
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/bayesian-machine-learning
+  url: https://github.com/krasserm/bayesian-machine-learning
+  citations: https://scholar.google.com/scholar?q=%22krasserm%2Fbayesian-machine-learning%22+OR+%22krasserm.github.io%2F2018%2F03%2F21%2Fbayesian-optimization%22+OR+%22krasserm.github.io%2F2019%2F03%2F14%2Fbayesian-neural-networks%22+OR+%22krasserm.github.io%2F2020%2F11%2F04%2Fgaussian-processes%22
+  description: krasserm/bayesian-machine-learning. A collection of notebooks about
+    Bayesian methods for machine learning, like Bayesian regression, Gaussian processes,
+    Bayesian optimization, variational inference in Bayesian neural networks, ...,
+    etc. Each notebook covers a single topic and combines an introduction, mathematical
+    basics and a simple implementation.
+  founder: true
+  technologies:
+  - NumPy
+  - SciPy
+  - PyMC
+  - JAX
+  - scikit-learn
+  - Tensorflow
+  - Tensorflow Probability
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/perceiver-io
+  url: https://github.com/krasserm/perceiver-io
+  citations: https://scholar.google.com/scholar?q=%22https%3A%2F%2Fgithub.com%2Fkrasserm%2Fperceiver-io%22
+  description: krasserm/perceiver-io. The perceiver-io library is a modular implementation
+    of Perceiver, Perceiver IO, and Perceiver AR in PyTorch, with a PyTorch Lightning
+    integration for distributed training and a Hugging Face integration for inference.
+    The project provides both ported official models and custom models used in training
+    examples.
+  founder: true
+  technologies:
+  - PyTorch
+  - PyTorch Lightning
+  - HF Transformers
+  - HF Tokenizers
+  - HF Datasets
+  - pandas
+  - OpenCV
+  - Docker
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/super-resolution
+  url: https://github.com/krasserm/super-resolution
+  citations: https://scholar.google.com/scholar?q=%22github.com%2Fkrasserm%2Fsuper-resolution%22+OR+%22krasserm.github.io%2F2019%2F09%2F04%2Fsuper-resolution%22
+  description: 'krasserm/super-resolution. This project provides a Tensorflow 2.x
+    based implementation of three popular single image super-resolution models: EDSR,
+    WDSR and SRGAN. Pre-trained weights, training and inference examples as well as
+    a data loader for the DIV2K dataset are included.'
+  founder: true
+  technologies:
+  - Tensorflow
+  - Keras
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/fairseq-image-captioning
+  url: https://github.com/krasserm/fairseq-image-captioning
+  citations: https://scholar.google.com/scholar?q=%22https%3A%2F%2Fgithub.com%2Fkrasserm%2Ffairseq-image-captioning%22
+  description: krasserm/fairseq-image-captioning. Implements an *Image Captioning
+    Transformer* with the fairseq sequence modelling toolkit by combining ideas from
+    Self-critical Sequence Training for Image Captioning and Bottom-Up and Top-Down
+    Attention for Image Captioning and Visual Question Answering with the Transformer
+    architecture.
+  founder: true
+  technologies:
+  - PyTorch
+  - fairseq
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/face-recognition
+  url: https://github.com/krasserm/face-recognition
+  citations: https://scholar.google.com/scholar?q=%22krasserm.github.io%2F2018%2F02%2F07%2Fdeep-face-recognition%22+OR+%22github.com%2Fkrasserm%2Fface-recognition%22
+  description: krasserm/face-recognition. Demonstrates how to build a face recognition
+    system with Keras, Dlib and OpenCV. The process involves preprocessing images
+    for face alignment, generating 128-dimensional face embeddings with a convolutional
+    neural network (CNN), training classifiers on labeled embeddings and predicting
+    identities of new inputs.
+  founder: true
+  technologies:
+  - Keras
+  - OpenCV
+  - scikit-learn
+  languages:
+  - Python
+  tags:
+  - machine-learning
+- name: krasserm/streamz
+  url: https://github.com/krasserm/streamz
+  description: krasserm/streamz. Streamz is a combinator library designed to integrate
+    Functional Streams for Scala (FS2), Akka Streams, and Apache Camel endpoints,
+    allowing seamless interoperability between these technologies. Camel endpoints
+    can be integrated into FS2 applications with the Camel DSL for FS2 and into Akka
+    Streams applications with the Camel DSL for Akka Streams.
+  founder: true
+  technologies:
+  - FS2
+  - Akka Streams
+  - Apache Camel
+  - Cats
+  languages:
+  - Scala
+  - Java
+  tags:
+  - system-integration
+- name: krasserm/akka-stream-eventsourcing
+  url: https://github.com/krasserm/akka-stream-eventsourcing
+  description: 'krasserm/akka-stream-eventsourcing. This project brings to Akka Streams
+    what Akka Persistence brings to Akka Actors: persistence via event sourcing. In
+    the same way as persistent actors in Akka Persistence, stateful *request processors*
+    in akka-stream-eventsourcing form a consistency boundary around internal state
+    but additionally provide type safety and end-to-end back-pressure for the whole
+    event sourcing message flow.'
+  founder: true
+  technologies:
+  - Akka Streams
+  - Apache Kafka
+  - Kafka Streams
+  languages:
+  - Scala
+  tags:
+  - event-sourcing
+- name: krasserm/grails-jaxrs
+  url: https://github.com/krasserm/grails-jaxrs
+  contributions: https://github.com/search?q=repo%3Akrasserm%2Fgrails-jaxrs+author%3Akrasserm&type=commits
+  description: 'krasserm/grails-jaxrs. grails-jaxrs is a Grails plugin that supports
+    the development of RESTful web services based on the Java API for RESTful Web
+    Services (JSR 311: JAX-RS). It is targeted at developers who want to structure
+    the web service layer of an application in a JSR 311 compatible way but still
+    want to continue to use Grails'' powerful features such as GORM, automated XML
+    and JSON marshalling, Grails services, Grails filters and so on. This plugin is
+    an alternative to Grails'' built-in mechanism for implementing RESTful web services.'
+  founder: true
+  technologies:
+  - Grails
+  languages:
+  - Groovy
+talks:
+- title: Event Sourcing and CQRS with Akka Persistence and Eventuate
+  slides: https://de.slideshare.net/mrt1nz/akka-persistence-and-eventuate
+  event: Reactive Systems Hamburg [meetup](https://www.meetup.com/Reactive-Systems-Hamburg/events/225157496/)
+  date: 2015-11-05
+- title: Event Sourcing and CQRS with Akka Persistence and Eventuate
+  slides: https://de.slideshare.net/mrt1nz/akka-persistence-and-eventuate
+  event: Scala User Group Munich [meetup](https://www.meetup.com/de-DE/scalamuc/events/223834065/)
+  date: 2015-10-22
+- title: Connecting Akka to the Rest of the World
+  slides: http://www.slideshare.net/krasserm/system-integration-with-akka-and-apache-camel
+  event: Scala eXchange, London
+  date: 2011-06-16
+- title: Die Open eHealth Integration Platform
+  slides: https://de.slideshare.net/krasserm/die-open-ehealth-integration-platform
+  event: W-JAX, Munich
+  date: 2009-11-12
+- title: The Open eHealth Integration Platform
+  slides: https://de.slideshare.net/krasserm/the-open-ehealth-integration-platform-83906603
+  event: ICW Developer Conference, Walldorf
+  date: 2009-05-05
+- title: Instance-based Security with the Security Annotation Framework
+  slides: https://de.slideshare.net/krasserm/instancebased-security-with-the-security-annotation-framework
+  event: ICW Developer Conference, Walldorf
+  date: 2008-05-07
