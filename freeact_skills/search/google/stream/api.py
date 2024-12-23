@@ -4,9 +4,9 @@ class InternetSearch:
     def __init__(self, api_key: str | None = None):
         self.api_key = api_key
 
-    def search(self, natural_language_query: str) -> str:
+    def search(self, natural_language_query: str):
         """
-        Search for up-to-date information on the internet and return result in markdown format.
+        Search for up-to-date information on the internet and stream the result to stdout in markdown format.
 
         Args:
             natural_language_query (str): A query string that matches a specific topic, concept, or fact.
@@ -14,4 +14,5 @@ class InternetSearch:
         """
         from freeact_skills.search.google import impl
 
-        return impl.search(natural_language_query, self.api_key)
+        for chunk in impl.search_stream(natural_language_query, self.api_key):
+            print(chunk, end="", flush=True)
