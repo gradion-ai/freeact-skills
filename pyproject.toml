@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "freeact-skills"
-version = "0.0.4"
+version = "0.0.5"
 description = "Library of predefined freeact agent skills"
 homepage = "https://github.com/gradion-ai/freeact-skills"
 readme = "README.md"
