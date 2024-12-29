@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "freeact-skills"
-version = "0.0.5"
+version = "0.0.6"
 description = "Library of predefined freeact agent skills"
 homepage = "https://github.com/gradion-ai/freeact-skills"
 readme = "README.md"
@@ -23,7 +23,7 @@ google-genai = { version = "^0.2.2", optional = true }
 httpx = { version = "^0.27.2", optional = true }
 openai = { version = "^1.56.0", optional = true }
 pydantic = { version = "^2.9", optional = true }
-python = "^3.10,<3.13"
+python = "^3.11,<3.14"
 python-dateutil = { version = "^2.9", optional = true }
 pyyaml = { version = "^6.0", optional = true }
 pyzotero = { version = "^1.5", optional = true }

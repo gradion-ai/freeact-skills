@@ -2,6 +2,10 @@
 
 The `freeact-skills` project provides a curated set of predefined skill modules for the [freeact](https://gradion-ai.github.io/freeact) agent system. These modules must be [pre-installed](installation.md) on [ipybox](https://gradion-ai.github.io/ipybox) to be accessible by `freeact` agents.
 
+<figure markdown>
+  ![logo](img/strawberry-skills.resized.png){ width="400" style="display: block; margin: 0 auto" }
+</figure>
+
 ## Skills
 
 Currently in its early development phase, `freeact-skills` offers a set of [core skills](#core-skills) and [specialized skills](#specialized-skills). To use a skill in a `freeact` agent application, reference it by its module name (see `freeact` tutorials for details). For example, the `zotero` skill can be referenced as `freeact_skills.zotero.api`.
@@ -94,7 +98,7 @@ Both Google search skills require a `GOOGLE_API_KEY` or `GEMINI_API_KEY`, obtain
 
 - `freeact_skills.editor`
 
-    Internal system component (not for direct application use). Enables agents to view, create, edit, insert, and undo file edits, supporting interactive skill module development. Based on Anthropic's [original implementation](https://github.com/anthropics/anthropic-quickstarts/blob/main/computer-use-demo/computer_use_demo/tools/edit.py) (MIT licensed).
+    Internal system component (not for direct application use). Enables agents to view, create, edit, insert, and undo file edits, supporting interactive skill module development. Based on Anthropic's [original implementation](https://github.com/anthropics/anthropic-quickstarts/blob/main/computer-use-demo/computer_use_demo/tools/edit.py).
 
 ## Status
 

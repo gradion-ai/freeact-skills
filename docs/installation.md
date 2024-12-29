@@ -20,7 +20,9 @@ The `extras=["all"]` option includes all available skills: `["reader", "search-g
 freeact-skills = {version = "*", extras = ["search-google", "zotero"]}
 ```
 
-Note: `dependencies.txt` must follow the [Poetry dependency specification format](https://python-poetry.org/docs/dependency-specification/).
+!!! Note
+
+    `dependencies.txt` must follow the [Poetry dependency specification format](https://python-poetry.org/docs/dependency-specification/).
 
 Build the `ipybox` Docker image with your selected skills:
 
