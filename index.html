@@ -569,6 +569,9 @@
 
 <h1 id="overview">Overview</h1>
 <p>The <code>freeact-skills</code> project provides a curated set of predefined skill modules for the <a href="https://gradion-ai.github.io/freeact">freeact</a> agent system. These modules must be <a href="installation/">pre-installed</a> on <a href="https://gradion-ai.github.io/ipybox">ipybox</a> to be accessible by <code>freeact</code> agents.</p>
+<figure>
+<p><img alt="logo" src="img/strawberry-skills.resized.png" style="display: block; margin: 0 auto" width="400" /></p>
+</figure>
 <h2 id="skills">Skills</h2>
 <p>Currently in its early development phase, <code>freeact-skills</code> offers a set of <a href="#core-skills">core skills</a> and <a href="#specialized-skills">specialized skills</a>. To use a skill in a <code>freeact</code> agent application, reference it by its module name (see <code>freeact</code> tutorials for details). For example, the <code>zotero</code> skill can be referenced as <code>freeact_skills.zotero.api</code>.</p>
 <p>Skill module sources are retrieved from <code>ipybox</code> and incorporated into the agent's model context. By convention, <code>freeact-skills</code> packages are split into an <code>api</code> module containing the skill interface, including a detailed description and optional usage examples, and one or more implementation modules containing the underlying logic.</p>
@@ -691,7 +694,7 @@
 <ul>
 <li>
 <p><code>freeact_skills.editor</code></p>
-<p>Internal system component (not for direct application use). Enables agents to view, create, edit, insert, and undo file edits, supporting interactive skill module development. Based on Anthropic's <a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/computer-use-demo/computer_use_demo/tools/edit.py">original implementation</a> (MIT licensed).</p>
+<p>Internal system component (not for direct application use). Enables agents to view, create, edit, insert, and undo file edits, supporting interactive skill module development. Based on Anthropic's <a href="https://github.com/anthropics/anthropic-quickstarts/blob/main/computer-use-demo/computer_use_demo/tools/edit.py">original implementation</a>.</p>
 </li>
 </ul>
 <h2 id="status">Status</h2>

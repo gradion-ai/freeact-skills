@@ -509,7 +509,10 @@
 <div class="language-toml highlight"><span class="filename">dependencies.txt</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># Install selected skills only</span>
 </span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">freeact-skills</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">{</span><span class="n">version</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">&quot;*&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">extras</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="p">[</span><span class="s2">&quot;search-google&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;zotero&quot;</span><span class="p">]}</span>
 </span></code></pre></div>
-<p>Note: <code>dependencies.txt</code> must follow the <a href="https://python-poetry.org/docs/dependency-specification/">Poetry dependency specification format</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><code>dependencies.txt</code> must follow the <a href="https://python-poetry.org/docs/dependency-specification/">Poetry dependency specification format</a>.</p>
+</div>
 <p>Build the <code>ipybox</code> Docker image with your selected skills:</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>python<span class="w"> </span>-m<span class="w"> </span>ipybox<span class="w"> </span>build<span class="w"> </span>-t<span class="w"> </span>your-image-tag<span class="w"> </span>-d<span class="w"> </span>dependencies.txt
 </span></code></pre></div>
