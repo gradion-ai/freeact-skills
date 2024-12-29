@@ -1,6 +1,6 @@
 # Overview
 
-The `freeact-skills` project provides a curated set of predefined skill modules for the [freeact](https://gradion-ai.github.io/freeact) agent system. These modules must be [pre-installed](installation.md) on [ipybox](https://gradion-ai.github.io/ipybox) to be accessible by `freeact` agents.
+The `freeact-skills` project provides a curated set of predefined skill modules for the [`freeact`](https://gradion-ai.github.io/freeact) agent system. These modules must be [pre-installed](installation.md) on [`ipybox`](https://gradion-ai.github.io/ipybox) to be accessible by `freeact` agents.
 
 <figure markdown>
   ![logo](img/strawberry-skills.resized.png){ width="400" style="display: block; margin: 0 auto" }
