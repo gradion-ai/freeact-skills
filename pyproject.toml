@@ -1,10 +1,10 @@
 [build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
 
 [tool.poetry]
 name = "freeact-skills"
-version = "0.0.6"
+version = "0.0.0"
 description = "Library of predefined freeact agent skills"
 homepage = "https://github.com/gradion-ai/freeact-skills"
 readme = "README.md"
@@ -84,3 +84,9 @@ module = [
     "yaml"
 ]
 ignore_missing_imports = true
+
+[tool.poetry-dynamic-versioning]
+enable = true
+vcs = "git"
+pattern = "default-unprefixed"
+style = "pep440"
