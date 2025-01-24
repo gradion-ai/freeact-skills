@@ -34,7 +34,7 @@ class InternetSearchImpl(InternetSearch):
     def __init__(
         self,
         api_key: str | None = None,
-        model: str = "llama-3.1-sonar-large-128k-online",
+        model: str = "sonar",
         max_tokens: int = 4096,
         temperature: float = 0.2,
         top_p: float = 0.9,
