@@ -5,7 +5,7 @@ from google.genai.types import GenerateContentConfig, GoogleSearch, Tool
 
 SEARCH = Tool(google_search=GoogleSearch())
 CONFIG = {
-    "model": "gemini-2.0-flash-exp",
+    "model": "gemini-2.0-flash",
     "config": GenerateContentConfig(
         temperature=0.0,
         tools=[SEARCH],
