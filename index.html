@@ -568,20 +568,20 @@
 
 
 <h1 id="overview">Overview</h1>
-<p>The <code>freeact-skills</code> project provides a curated set of predefined skill modules for the <a href="https://gradion-ai.github.io/freeact"><code>freeact</code></a> agent system. These modules must be <a href="installation/">pre-installed</a> on <a href="https://gradion-ai.github.io/ipybox"><code>ipybox</code></a> to be accessible by <code>freeact</code> agents.</p>
+<p>The <code>freeact-skills</code> project provides predefined example skills for the <a href="https://gradion-ai.github.io/freeact"><code>freeact</code></a> agent library. They must be <a href="installation/">pre-installed</a> on <a href="https://gradion-ai.github.io/ipybox"><code>ipybox</code></a> to be accessible by <code>freeact</code> agents.</p>
 <h2 id="skills">Skills</h2>
-<p>Currently in its early development phase, <code>freeact-skills</code> offers a set of <a href="#core-skills">core skills</a> and <a href="#specialized-skills">specialized skills</a>. To use a skill in a <code>freeact</code> agent application, reference it by its module name (see <code>freeact</code> tutorials for details). For example, the <code>zotero</code> skill can be referenced as <code>freeact_skills.zotero.api</code>.</p>
-<p>Skill module sources are retrieved from <code>ipybox</code> and incorporated into the agent's model context. By convention, <code>freeact-skills</code> packages are split into an <code>api</code> module containing the skill interface, including a detailed description and optional usage examples, and one or more implementation modules containing the underlying logic.</p>
-<p>This convention ensures that <code>freeact</code> agents only receive relevant information from the <code>api</code> module while internal implementation details remain hidden. However, it is merely a guideline; you are free to present any Python code as a skill module, depending on your context requirements and the level of detail you want the agent to process.</p>
+<p>Currently in its early development phase, <code>freeact-skills</code> offers a set of <a href="#core-skills">core skills</a> and <a href="#specialized-skills">specialized skills</a>. To use a skill in a <code>freeact</code> agent application, reference it by its module name. For example, the <code>zotero</code> skill can be referenced by <code>freeact_skills.zotero.api</code>.</p>
+<p><code>freeact</code> loads skill module sources from <code>ipybox</code> and adds them to a code action model's context. By convention, <code>freeact-skills</code> packages are split into an <code>api</code> module containing the skill interface, including a detailed description and optional usage examples, and one or more implementation modules.</p>
+<p>This convention ensures that <code>freeact</code> agents only receive relevant information from the <code>api</code> module while internal implementation details remain hidden. However, it is merely a guideline; you are free to present any Python code as a skill module, depending on the level of details you want to expose to a code action model.</p>
 <h3 id="core-skills">Core skills</h3>
 <ul>
 <li>
 <p><code>freeact_skills.search.google.stream.api</code></p>
-<p>Provides generative Google search via the <a href="https://ai.google.dev/gemini-api/docs/models/gemini-v2">Gemini 2 API</a>. Search output is streamed, enabling clients to display results as they are generated.</p>
+<p>Provides generative Google search via the <a href="https://ai.google.dev/gemini-api/docs">Gemini API</a>. Search output is streamed, enabling clients to display results as they are generated.</p>
 </li>
 <li>
 <p><code>freeact_skills.search.google.api</code></p>
-<p>Provides generative Google search via the <a href="https://ai.google.dev/gemini-api/docs/models/gemini-v2">Gemini 2 API</a>. Search output is returned as a string for direct processing by agents in code actions. Maintained for experimentation with Gemini 2 based <code>freeact</code> agents.</p>
+<p>Provides generative Google search via the <a href="https://ai.google.dev/gemini-api/docs">Gemini API</a>. Search output is returned as a string in a single batch.</p>
 </li>
 </ul>
 <p>Both Google search skills require a <code>GOOGLE_API_KEY</code> or <code>GEMINI_API_KEY</code>, obtainable from <a href="https://aistudio.google.com/app/apikey">Google AI Studio</a>.</p>
