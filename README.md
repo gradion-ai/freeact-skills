@@ -9,7 +9,7 @@
     <a href="https://pypi.org/project/freeact-skills/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/freeact-skills"></a>
 </p>
 
-The `freeact-skills` project provides a curated set of predefined skill modules for the [freeact](https://gradion-ai.github.io/freeact) agent system.
+The `freeact-skills` project provides predefined example skills for the [freeact](https://gradion-ai.github.io/freeact) agent library.
 
 ## Documentation
 

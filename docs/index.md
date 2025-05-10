@@ -1,24 +1,24 @@
 # Overview
 
-The `freeact-skills` project provides a curated set of predefined skill modules for the [`freeact`](https://gradion-ai.github.io/freeact) agent system. These modules must be [pre-installed](installation.md) on [`ipybox`](https://gradion-ai.github.io/ipybox) to be accessible by `freeact` agents.
+The `freeact-skills` project provides predefined example skills for the [`freeact`](https://gradion-ai.github.io/freeact) agent library. They must be [pre-installed](installation.md) on [`ipybox`](https://gradion-ai.github.io/ipybox) to be accessible by `freeact` agents.
 
 ## Skills
 
-Currently in its early development phase, `freeact-skills` offers a set of [core skills](#core-skills) and [specialized skills](#specialized-skills). To use a skill in a `freeact` agent application, reference it by its module name (see `freeact` tutorials for details). For example, the `zotero` skill can be referenced as `freeact_skills.zotero.api`.
+Currently in its early development phase, `freeact-skills` offers a set of [core skills](#core-skills) and [specialized skills](#specialized-skills). To use a skill in a `freeact` agent application, reference it by its module name. For example, the `zotero` skill can be referenced by `freeact_skills.zotero.api`.
 
-Skill module sources are retrieved from `ipybox` and incorporated into the agent's model context. By convention, `freeact-skills` packages are split into an `api` module containing the skill interface, including a detailed description and optional usage examples, and one or more implementation modules containing the underlying logic.
+`freeact` loads skill module sources from `ipybox` and adds them to a code action model's context. By convention, `freeact-skills` packages are split into an `api` module containing the skill interface, including a detailed description and optional usage examples, and one or more implementation modules.
 
-This convention ensures that `freeact` agents only receive relevant information from the `api` module while internal implementation details remain hidden. However, it is merely a guideline; you are free to present any Python code as a skill module, depending on your context requirements and the level of detail you want the agent to process.
+This convention ensures that `freeact` agents only receive relevant information from the `api` module while internal implementation details remain hidden. However, it is merely a guideline; you are free to present any Python code as a skill module, depending on the level of details you want to expose to a code action model.
 
 ### Core skills
 
 - `freeact_skills.search.google.stream.api`
 
-    Provides generative Google search via the [Gemini 2 API](https://ai.google.dev/gemini-api/docs/models/gemini-v2). Search output is streamed, enabling clients to display results as they are generated.
+    Provides generative Google search via the [Gemini API](https://ai.google.dev/gemini-api/docs). Search output is streamed, enabling clients to display results as they are generated.
 
 - `freeact_skills.search.google.api`
 
-    Provides generative Google search via the [Gemini 2 API](https://ai.google.dev/gemini-api/docs/models/gemini-v2). Search output is returned as a string for direct processing by agents in code actions. Maintained for experimentation with Gemini 2 based `freeact` agents.
+    Provides generative Google search via the [Gemini API](https://ai.google.dev/gemini-api/docs). Search output is returned as a string in a single batch.
 
 Both Google search skills require a `GOOGLE_API_KEY` or `GEMINI_API_KEY`, obtainable from [Google AI Studio](https://aistudio.google.com/app/apikey).
 
